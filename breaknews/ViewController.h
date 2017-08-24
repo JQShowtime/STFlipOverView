@@ -8,11 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>;
+@interface ViewController : UIViewController
 
-@property(strong , nonatomic) UITableView *frametable;
-@property(strong, nonatomic) NSArray *poems;
-@property(assign, nonatomic) NSInteger count;
-@property(strong, nonatomic) NSTimer *timer;
 @end
 

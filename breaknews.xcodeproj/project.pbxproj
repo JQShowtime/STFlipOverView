@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C32887791F4ED802003906B4 /* STFlipOverItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C32887761F4ED802003906B4 /* STFlipOverItem.m */; };
+		C328877A1F4ED802003906B4 /* STFlipOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = C32887781F4ED802003906B4 /* STFlipOverView.m */; };
 		F3265E241BA1260B0038E53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3265E231BA1260B0038E53C /* main.m */; };
 		F3265E271BA1260B0038E53C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3265E261BA1260B0038E53C /* AppDelegate.m */; };
 		F3265E2A1BA1260B0038E53C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3265E291BA1260B0038E53C /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C32887751F4ED802003906B4 /* STFlipOverItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFlipOverItem.h; sourceTree = "<group>"; };
+		C32887761F4ED802003906B4 /* STFlipOverItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFlipOverItem.m; sourceTree = "<group>"; };
+		C32887771F4ED802003906B4 /* STFlipOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STFlipOverView.h; sourceTree = "<group>"; };
+		C32887781F4ED802003906B4 /* STFlipOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STFlipOverView.m; sourceTree = "<group>"; };
 		F3265E1E1BA1260B0038E53C /* breaknews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breaknews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3265E221BA1260B0038E53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3265E231BA1260B0038E53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +66,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C32887741F4ED802003906B4 /* STFlipOverView */ = {
+			isa = PBXGroup;
+			children = (
+				C32887751F4ED802003906B4 /* STFlipOverItem.h */,
+				C32887761F4ED802003906B4 /* STFlipOverItem.m */,
+				C32887771F4ED802003906B4 /* STFlipOverView.h */,
+				C32887781F4ED802003906B4 /* STFlipOverView.m */,
+			);
+			path = STFlipOverView;
+			sourceTree = "<group>";
+		};
 		F3265E151BA1260B0038E53C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +98,7 @@
 		F3265E201BA1260B0038E53C /* breaknews */ = {
 			isa = PBXGroup;
 			children = (
+				C32887741F4ED802003906B4 /* STFlipOverView */,
 				F3265E251BA1260B0038E53C /* AppDelegate.h */,
 				F3265E261BA1260B0038E53C /* AppDelegate.m */,
 				F3265E281BA1260B0038E53C /* ViewController.h */,
@@ -219,8 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C32887791F4ED802003906B4 /* STFlipOverItem.m in Sources */,
 				F3265E2A1BA1260B0038E53C /* ViewController.m in Sources */,
 				F3265E271BA1260B0038E53C /* AppDelegate.m in Sources */,
+				C328877A1F4ED802003906B4 /* STFlipOverView.m in Sources */,
 				F3265E241BA1260B0038E53C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +438,7 @@
 				F3265E431BA1260B0038E53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3265E441BA1260B0038E53C /* Build configuration list for PBXNativeTarget "breaknewsTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +447,7 @@
 				F3265E461BA1260B0038E53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
